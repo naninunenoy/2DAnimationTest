@@ -109,12 +109,27 @@ TextureImporter:
         width: 50
         height: 336
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: upperArm
+        position: {x: 26.500801, y: 333.57892, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7012394, w: 0.71292585}
+        length: 128.82344
+        parentId: -1
+      - name: foreArm
+        position: {x: 128.82344, y: -0.0000018039457, z: 0}
+        rotation: {x: 0, y: 0, z: -0.012231422, w: 0.9999252}
+        length: 134.13264
+        parentId: 0
+      - name: hand
+        position: {x: 134.13266, y: -0.0000014325025, z: 0}
+        rotation: {x: 0, y: 0, z: 0.003966816, w: 0.99999213}
+        length: 59.61264
+        parentId: 1
       spriteID: 6d7fa2e8ba867ce4380bbfa2215f9e94
       vertices: []
       indices: 
@@ -129,7 +144,7 @@ TextureImporter:
         width: 157
         height: 157
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,12 +164,27 @@ TextureImporter:
         width: 52
         height: 341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: upperArm
+        position: {x: 25.434631, y: 340.09503, z: 0}
+        rotation: {x: 0, y: 0, z: -0.70710677, w: 0.70710677}
+        length: 126.67688
+        parentId: -1
+      - name: foreArm
+        position: {x: 126.676895, y: -0.0000071354175, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0040301695, w: 0.9999919}
+        length: 132.0037
+        parentId: 0
+      - name: hand
+        position: {x: 132.00363, y: -0.0000110870915, z: 0}
+        rotation: {x: 0, y: 0, z: 0.009669016, w: 0.99995327}
+        length: 77.7385
+        parentId: 1
       spriteID: a4192f6f7729e3f41922eb67f0497f79
       vertices: []
       indices: 
@@ -169,12 +199,22 @@ TextureImporter:
         width: 144
         height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: pelvis
+        position: {x: 69.27417, y: 6.61322, z: 0}
+        rotation: {x: 0, y: 0, z: 0.69810164, w: 0.7159987}
+        length: 84.123474
+        parentId: -1
+      - name: chest
+        position: {x: 84.09652, y: 1.0641276, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0063264933, w: 0.99998}
+        length: 158.62924
+        parentId: 0
       spriteID: 8379814cbd4fcdf40bef4c50089df01f
       vertices: []
       indices: 
@@ -189,12 +229,27 @@ TextureImporter:
         width: 104
         height: 318
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: thigh
+        position: {x: 82.59734, y: 315.74194, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7099753, w: 0.7042266}
+        length: 130.9392
+        parentId: -1
+      - name: shin
+        position: {x: 129.8661, y: 1.0558352, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0040669753, w: 0.9999917}
+        length: 159.67671
+        parentId: 0
+      - name: foot
+        position: {x: 159.67674, y: -0.0006386483, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6618042, w: 0.7496767}
+        length: 68.65892
+        parentId: 1
       spriteID: 070bb5f3e815cf9498bac113c6658785
       vertices: []
       indices: 
@@ -209,12 +264,27 @@ TextureImporter:
         width: 106
         height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: thigh
+        position: {x: 14.144562, y: 313.74194, z: 0}
+        rotation: {x: 0, y: 0, z: -0.70710665, w: 0.70710695}
+        length: 128.80583
+        parentId: -1
+      - name: shin
+        position: {x: 128.80585, y: 1.0644999, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0041360045, w: 0.9999914}
+        length: 162.87376
+        parentId: 0
+      - name: foot
+        position: {x: 162.87376, y: -0.0013291441, z: 0}
+        rotation: {x: 0, y: 0, z: 0.67305654, w: 0.739591}
+        length: 74.50872
+        parentId: 1
       spriteID: a95ef6257e0292d47a591e0f291a713f
       vertices: []
       indices: 
