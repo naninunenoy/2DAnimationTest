@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class HumanManager : MonoBehaviour {
     [SerializeField]
+    Transform humanTransform;
+    [SerializeField]
     SimpleAnimation humanAnimation;
 
-
 	void Start () {
-        humanAnimation.Play("Run");
     }
     
     void Update () {
-		
-	}
+
+    }
 }
