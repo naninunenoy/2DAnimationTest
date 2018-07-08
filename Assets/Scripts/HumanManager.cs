@@ -13,15 +13,24 @@ public class HumanManager : MonoBehaviour {
     [SerializeField]
     Transform humanTransform;
     [SerializeField]
+    Human human;
+    [SerializeField]
     SimpleAnimation humanAnimation;
 
 	void Start () {
         state = CharaState.Idle;
         humanAnimation.Play("Default"); // 敢えて書いておく
+        human.OnJumpEnd += JumpEnd;
     }
-    
+
+    void OnDestroy() {
+        human.OnJumpEnd -= JumpEnd;
+    }
+
     void Update () {
-        if (Input.GetKey("right")) {
+        if (Input.GetKeyDown("up")) {
+            Jump();
+        } else if (Input.GetKey("right")) {
             RunRight();
         } else if (Input.GetKey("left")) {
             RunLeft();
@@ -34,6 +43,16 @@ public class HumanManager : MonoBehaviour {
         if (state == CharaState.Jump || state == CharaState.Spinig) {
             return;
         }
+        state = CharaState.Idle;
+        humanAnimation.Play("Default");
+    }
+
+    void Jump() {
+        state = CharaState.Jump;
+        humanAnimation.Play("Jump");
+    }
+
+    void JumpEnd() {
         state = CharaState.Idle;
         humanAnimation.Play("Default");
     }
