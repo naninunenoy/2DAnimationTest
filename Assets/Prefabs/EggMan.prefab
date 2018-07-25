@@ -81,6 +81,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4593630285447476}
+  - component: {fileID: 95057581407105884}
   m_Layer: 0
   m_Name: EggMan
   m_TagString: Untagged
@@ -490,13 +491,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076588575502470}
-  m_LocalRotation: {x: -0, y: -0, z: 0.000018821098, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0016038378, w: 0.9999987}
   m_LocalPosition: {x: 1.09, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4760404750455822}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.18400002}
 --- !u!4 &4173161406832736
 Transform:
   m_ObjectHideFlags: 1
@@ -557,7 +558,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1550635149825502}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0.000018324872}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9999988, w: -0.0015638868}
   m_LocalPosition: {x: -0.77995515, y: 1.109204, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -684,7 +685,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1385108725276542}
-  m_LocalRotation: {x: 0, y: 0, z: -0.01077551, w: 0.99994195}
+  m_LocalRotation: {x: 0, y: 0, z: -0.0075707748, w: 0.9999714}
   m_LocalPosition: {x: 1.1180531, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -780,6 +781,24 @@ Transform:
   m_Father: {fileID: 4081570924754798}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.90401}
+--- !u!95 &95057581407105884
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106305427167278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f3603590cc674adda61794d7c788640, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114199309422550052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -825,7 +844,7 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0, w: 0}
     - {x: 0, y: 0, z: 0, w: 0}
     - {x: 0, y: 0, z: 0, w: 0}
-  m_Flip: 0
+  m_Flip: 1
 --- !u!114 &114543113586007466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -887,7 +906,7 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0, w: 0}
     - {x: 0, y: 0, z: 0, w: 0}
     - {x: 0, y: 0, z: 0, w: 0}
-  m_Flip: 0
+  m_Flip: 1
 --- !u!114 &114729515428263018
 MonoBehaviour:
   m_ObjectHideFlags: 1
