@@ -66,7 +66,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4485255959390210}
   m_Layer: 0
-  m_Name: Irasutoya
+  m_Name: Irasutoya_polise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
