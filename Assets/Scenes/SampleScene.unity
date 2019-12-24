@@ -131,8 +131,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2034806}
   - component: {fileID: 2034807}
+  - component: {fileID: 2034808}
   m_Layer: 0
-  m_Name: bag
+  m_Name: BagSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,7 +149,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.48805636, w: 0.8728121}
   m_LocalPosition: {x: 5.23, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1579250179}
   m_Father: {fileID: 981640618}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -203,6 +205,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2034808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 1579250179}
+  m_BoneTransforms:
+  - {fileID: 1579250179}
+  m_Bounds:
+    m_Center: {x: 1.899616, y: -0.11526084, z: 0}
+    m_Extent: {x: 3.6871152, y: 3.8122675, z: 0}
+  m_UseBatching: 1
 --- !u!1 &104378141
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +317,36 @@ Transform:
   - {fileID: 886500227}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &373950245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 373950246}
+  m_Layer: 0
+  m_Name: face
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &373950246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373950245}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7031383, w: 0.7110532}
+  m_LocalPosition: {x: -0.5812833, y: -3.4756203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200579639}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509803431
 GameObject:
@@ -422,7 +473,7 @@ GameObject:
   - component: {fileID: 589617380}
   - component: {fileID: 589617381}
   m_Layer: 0
-  m_Name: left_leg
+  m_Name: LeftLegSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +608,7 @@ GameObject:
   - component: {fileID: 764482522}
   - component: {fileID: 764482523}
   m_Layer: 0
-  m_Name: right_arm
+  m_Name: RightArmSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -661,7 +712,7 @@ GameObject:
   - component: {fileID: 783204314}
   - component: {fileID: 783204315}
   m_Layer: 0
-  m_Name: right_leg
+  m_Name: RightLegSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,7 +847,7 @@ GameObject:
   - component: {fileID: 886500228}
   - component: {fileID: 886500229}
   m_Layer: 0
-  m_Name: body
+  m_Name: BodySprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,6 +1001,36 @@ Transform:
   m_Father: {fileID: 1173974423}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1113195856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113195857}
+  m_Layer: 0
+  m_Name: bone_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113195857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113195856}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7554543, w: 0.6552014}
+  m_LocalPosition: {x: -0.30428773, y: -8.9148, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1200579639}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157880393
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +1043,7 @@ GameObject:
   - component: {fileID: 1157880395}
   - component: {fileID: 1157880396}
   m_Layer: 0
-  m_Name: left_arm
+  m_Name: LeftArmSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1095,8 +1176,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1200579639}
   - component: {fileID: 1200579640}
+  - component: {fileID: 1200579641}
   m_Layer: 0
-  m_Name: face
+  m_Name: FaceSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1112,7 +1194,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0.7152796, w: 0.6988384}
   m_LocalPosition: {x: 5.91, y: -0.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 373950246}
+  - {fileID: 1113195857}
   m_Father: {fileID: 170056529}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1167,6 +1251,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1200579641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200579638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 373950246}
+  m_BoneTransforms:
+  - {fileID: 373950246}
+  - {fileID: 1113195857}
+  m_Bounds:
+    m_Center: {x: 3.4818692, y: -0.5364275, z: 0}
+    m_Extent: {x: 4.6961365, y: 3.8913136, z: 0}
+  m_UseBatching: 1
 --- !u!1 &1577491481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1302,36 @@ Transform:
   - {fileID: 783204313}
   - {fileID: 589617379}
   m_Father: {fileID: 886500227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1579250178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579250179}
+  m_Layer: 0
+  m_Name: bag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1579250179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579250178}
+  m_LocalRotation: {x: 0, y: 0, z: -0.5749234, w: 0.8182073}
+  m_LocalPosition: {x: -0.9104297, y: 2.2756739, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2034806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1899962606

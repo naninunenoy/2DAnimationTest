@@ -201,7 +201,17 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: face
+        position: {x: 249.37167, y: 24.937988, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7031383, w: 0.7110532}
+        length: 674.90356
+        parentId: -1
+      - name: bone_1
+        position: {x: 277.07123, y: -518.98, z: 0}
+        rotation: {x: 0, y: 0, z: 0.7554543, w: 0.6552014}
+        length: 17.805943
+        parentId: -1
       spriteID: ef70e36410ea940a8bf734ffbda68eaa
       internalID: -6554548030022423292
       vertices: []
@@ -225,12 +235,12 @@ TextureImporter:
       bones:
       - name: upper_arm
         position: {x: 411.7306, y: 141.5138, z: 0}
-        rotation: {x: 0, y: 0, z: -0.9908795, w: 0.13475162}
-        length: 216.88187
+        rotation: {x: 0, y: 0, z: -0.9908794, w: 0.13475163}
+        length: 216.88194
         parentId: -1
       - name: fore_arm
-        position: {x: 216.88191, y: 0.00008012851, z: 0}
-        rotation: {x: 0, y: 0, z: -0.6979698, w: 0.7161273}
+        position: {x: 216.88193, y: 0.000063275, z: 0}
+        rotation: {x: 0, y: 0, z: -0.6979698, w: 0.7161272}
         length: 371.20132
         parentId: 0
       spriteID: 102ed62a130bd427f9a1c5df8e40306a
@@ -828,10 +838,10 @@ TextureImporter:
       - name: upper_arm
         position: {x: 19.81897, y: 266.48303, z: 0}
         rotation: {x: 0, y: 0, z: 0.10297946, w: 0.9946835}
-        length: 221.25244
+        length: 221.25246
         parentId: -1
       - name: fore_arm
-        position: {x: 221.25244, y: -0.0000626885, z: 0}
+        position: {x: 221.25246, y: -0.00006581448, z: 0}
         rotation: {x: 0, y: 0, z: -0.5753434, w: 0.81791204}
         length: 283.74652
         parentId: 0
@@ -1437,12 +1447,12 @@ TextureImporter:
       bones:
       - name: thigh
         position: {x: 562.7362, y: 380.03662, z: 0}
-        rotation: {x: 0, y: 0, z: -0.9577603, w: 0.28756788}
-        length: 301.71463
+        rotation: {x: 0, y: 0, z: -0.95776033, w: 0.28756765}
+        length: 301.71475
         parentId: -1
       - name: shin
-        position: {x: 301.71472, y: -0.000029449191, z: 0}
-        rotation: {x: 0, y: 0, z: 0.018437065, w: 0.99983007}
+        position: {x: 301.71472, y: 0.00012658507, z: 0}
+        rotation: {x: 0, y: 0, z: 0.018437311, w: 0.99983007}
         length: 173.29478
         parentId: 0
       spriteID: a163401a107aa41e4841a3266eb8e024
@@ -1469,10 +1479,10 @@ TextureImporter:
       - name: root
         position: {x: 319.73447, y: 50.33539, z: 0}
         rotation: {x: 0, y: 0, z: 0.72562575, w: 0.6880896}
-        length: 521.9901
+        length: 521.99005
         parentId: -1
       - name: chest
-        position: {x: 521.99005, y: -0.00008177742, z: 0}
+        position: {x: 521.99, y: -0.000078538564, z: 0}
         rotation: {x: 0, y: 0, z: -0.014918704, w: 0.9998887}
         length: 216.61847
         parentId: 0
@@ -2231,7 +2241,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
+      bones:
+      - name: bag
+        position: {x: 209.45703, y: 505.06738, z: 0}
+        rotation: {x: 0, y: 0, z: -0.5749234, w: 0.8182073}
+        length: 430.92563
+        parentId: -1
       spriteID: 91fa1a42dfd9243b6a5e2a1c48e19b27
       internalID: 2388516605555384784
       vertices: []
@@ -2255,12 +2270,12 @@ TextureImporter:
       bones:
       - name: thigh
         position: {x: 156.09808, y: 224.43954, z: 0}
-        rotation: {x: 0, y: 0, z: -0.40864667, w: 0.91269267}
-        length: 189.04504
+        rotation: {x: 0, y: 0, z: -0.40864676, w: 0.91269267}
+        length: 189.045
         parentId: -1
       - name: shin
-        position: {x: 189.04501, y: -0.000011682298, z: 0}
-        rotation: {x: 0, y: 0, z: 0.52377135, w: 0.851859}
+        position: {x: 189.04501, y: 0.000040152587, z: 0}
+        rotation: {x: 0, y: 0, z: 0.5237714, w: 0.8518589}
         length: 273.6442
         parentId: 0
       spriteID: ce7b48afb2ac547c8b2559c1a9a09a2b
