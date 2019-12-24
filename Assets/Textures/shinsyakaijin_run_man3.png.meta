@@ -4,10 +4,106 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -6554548030022423292
-    second: shinsyakaijin_run_man3_0
+    second: face
   - first:
       213: -7362163231445951722
-    second: shinsyakaijin_run_man3_1
+    second: right_arm
+  - first:
+      213: -772787100710412383
+    second: shinsyakaijin_run_man3_2
+  - first:
+      213: 6459361249840310603
+    second: left_arm
+  - first:
+      213: 7976616674619415818
+    second: shinsyakaijin_run_man3_4
+  - first:
+      213: 931943533405002692
+    second: shinsyakaijin_run_man3_5
+  - first:
+      213: 7285122265084713927
+    second: shinsyakaijin_run_man3_6
+  - first:
+      213: 7883858729173843750
+    second: shinsyakaijin_run_man3_7
+  - first:
+      213: -3977699148069504793
+    second: shinsyakaijin_run_man3_8
+  - first:
+      213: 5015299276530505585
+    second: shinsyakaijin_run_man3_9
+  - first:
+      213: 2257928647485941866
+    second: shinsyakaijin_run_man3_10
+  - first:
+      213: -3153573680739800282
+    second: shinsyakaijin_run_man3_11
+  - first:
+      213: 3543177043410505509
+    second: right_leg
+  - first:
+      213: 1903032411982191653
+    second: shinsyakaijin_run_man3_13
+  - first:
+      213: -1957201602219276096
+    second: shinsyakaijin_run_man3_14
+  - first:
+      213: -5379571853492059010
+    second: shinsyakaijin_run_man3_15
+  - first:
+      213: 3650891334659463149
+    second: shinsyakaijin_run_man3_16
+  - first:
+      213: 233610716559097043
+    second: shinsyakaijin_run_man3_17
+  - first:
+      213: 3803619903506335335
+    second: shinsyakaijin_run_man3_18
+  - first:
+      213: 8961021989148516151
+    second: shinsyakaijin_run_man3_19
+  - first:
+      213: 3908527943975793757
+    second: body
+  - first:
+      213: 2388516605555384784
+    second: bag
+  - first:
+      213: 9117608677170285619
+    second: left_leg
+  - first:
+      213: 2532357708780536463
+    second: shinsyakaijin_run_man3_23
+  - first:
+      213: -4321572394600636573
+    second: shinsyakaijin_run_man3_24
+  - first:
+      213: -7409625473682792131
+    second: shinsyakaijin_run_man3_25
+  - first:
+      213: -8409540378921517618
+    second: shinsyakaijin_run_man3_26
+  - first:
+      213: -3912070084580239856
+    second: shinsyakaijin_run_man3_27
+  - first:
+      213: -6833694564038393443
+    second: shinsyakaijin_run_man3_28
+  - first:
+      213: 1800811401461001358
+    second: shinsyakaijin_run_man3_29
+  - first:
+      213: -7821072219043051896
+    second: shinsyakaijin_run_man3_30
+  - first:
+      213: 2345214607388269174
+    second: shinsyakaijin_run_man3_31
+  - first:
+      213: -79451225103241351
+    second: shinsyakaijin_run_man3_32
+  - first:
+      213: -431302701450019255
+    second: shinsyakaijin_run_man3_33
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -92,43 +188,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shinsyakaijin_run_man3_0
+      name: face
       rect:
         serializedVersion: 2
-        x: 72
-        y: 105
-        width: 635
-        height: 678
+        x: 49
+        y: 1025
+        width: 615
+        height: 745
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa4e41a6f36e3452e92da497118e94e0
+      spriteID: ef70e36410ea940a8bf734ffbda68eaa
       internalID: -6554548030022423292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shinsyakaijin_run_man3_1
+      name: right_arm
       rect:
         serializedVersion: 2
-        x: 165
-        y: 27
-        width: 279
-        height: 31
+        x: 700
+        y: 1266
+        width: 437
+        height: 504
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3402359becc944988d20b876aab7da0
+      spriteID: 102ed62a130bd427f9a1c5df8e40306a
       internalID: -7362163231445951722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_arm
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1345
+        width: 469
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c891f92040e1b4ce1b3987382accb1e6
+      internalID: 6459361249840310603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right_leg
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 753
+        width: 690
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a163401a107aa41e4841a3266eb8e024
+      internalID: 3543177043410505509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 83
+        width: 647
+        height: 910
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab889e1de8a4bcb94b2b6543ffe24e
+      internalID: 3908527943975793757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bag
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 424
+        width: 601
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fa1a42dfd9243b6a5e2a1c48e19b27
+      internalID: 2388516605555384784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left_leg
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 201
+        width: 660
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7b48afb2ac547c8b2559c1a9a09a2b
+      internalID: 9117608677170285619
       vertices: []
       indices: 
       edges: []
